@@ -1,0 +1,33 @@
+.container{
+    background-color: palevioletred;
+}
+.title{
+    color: white;
+    padding-left:10px;
+    font-size: 50px;
+}
+.card{
+    height: 50px;
+    display: flex;
+    background-color: pink;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation{
+    display: flex;
+    justify-content: flex-start;
+}
+.navigation a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    transition: 0.7s ease;
+    padding: 10px;
+}
+a:hover {
+    background-color:white;
+    transform: scale(1.1);
+}
+a:focus{
+    background-color: blueviolet;
+}
